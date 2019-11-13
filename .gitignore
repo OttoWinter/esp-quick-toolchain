@@ -1,1 +1,11 @@
 .ghpass
+.ghuser
+/*.tar.gz
+/*.tar.gz.json
+/*.zip
+/*.zip.json
+/repo/
+/log.stage.*
+/arena.*/
+/.stage.*
+/xtensa-lx106-elf.*/
