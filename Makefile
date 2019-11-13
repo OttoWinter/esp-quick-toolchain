@@ -14,7 +14,7 @@ GCC     := $(if $(GCC),$(GCC),4.8)
 PWD      := $(shell pwd)
 REPODIR  := $(PWD)/repo
 PATCHDIR := $(PWD)/patches
-STAMP    := $(shell date +%s)
+STAMP    := $(shell date -u +%g%m%d)
 
 # For uploading, the GH user and password
 GHUSER := $(if $(GHUSER),$(GHUSER),$(shell cat .ghuser))
